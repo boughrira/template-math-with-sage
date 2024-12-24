@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains all of the "backmatter" material -->
+<!-- In comments, we show examples of how to have hints to divisional -->
+<!-- exercises appear in a section, and then their -->
+<!-- solutions in the next. Then there is an appendix -->
+<!-- with all notation generated, and finally the index. -->
+<backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
+  <title>Back Matter</title>
+
+  <!-- <solutions divisional="hint"> <title>Selected Hints</title> </solutions> -->
+  <!-- <solutions divisional="solution"> <title>Selected Solutions</title> </solutions> -->
+  <!-- <appendix> <title>List of Symbols</title> <notation-list/> </appendix> -->
+
+  <references xml:id="refs">
+    <introduction>
+      <p>
+        Most of the content in this book is based on the Mathematics lectures taught by Professor
+        Hellen Colman at Wilbur Wright College. We focused our efforts on creating original work,
+        and we drew inspiration from the following sources:
+      </p>
+    </introduction>
+    <biblio> SageMath, the Sage Mathematics Software System (Version 10.2), The Sage Developers,
+      2024, <url href="https://www.sagemath.org." />
+    </biblio>
+
+    <biblio> Beezer, Robert A., et al. The PreTeXt Guide. Pretextbook.org, 2024, <url
+        href="https://pretextbook.org/doc/guide/html/guide-toc.html" />. </biblio>
+
+    <biblio>
+      Zimmermann, Paul. Computational Mathematics with SageMath. Society For Industrial And Applied
+      Mathematics, 2019. </biblio>
+  </references>
+
+  <colophon>
+    <p>
+      <m>\textbf{PDF Download}:</m> This book was authored in <pretext /> and is available for free download in PDF format by clicking
+      <url href="https://github.com/boughrira/template-math-with-sage/blob/release/output/print/manuscript.pdf"> here</url>.
+    </p>
+  </colophon>
+
+  <index>
+    <title>Index</title>
+    <index-list />
+  </index>
+
+</backmatter>
